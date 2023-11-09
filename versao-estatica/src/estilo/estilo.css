@@ -130,3 +130,20 @@ section img {
     padding: 1% 6%;
     margin: 5% 0 5% 0;
 }
+
+#server-info h2{
+    font-size: xx-large;
+    margin-bottom: 10%;
+}
+
+#number-online{
+    display: flex;
+    justify-content: flex-end;
+    gap:5px;
+}
+
+.number{
+    color: rgba(37, 228, 7, 0.856);
+    font-size: large;
+    font-weight: bold;
+}
