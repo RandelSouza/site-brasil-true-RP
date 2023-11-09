@@ -4,10 +4,15 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
 }
 
 body {
     background-image: url(../../../assets/image2.png);
+}
+
+section {
+    margin: 2%;
 }
 
 h1 {
@@ -19,8 +24,6 @@ header {
     position: relative;
     align-items: center;
     padding: 13px 24px;
-    font-family:"Roboto","Helvetica","Arial",sans-serif;
-    font-weight: 500;
     text-transform: uppercase;
     font-size:0.875rem;
 }
@@ -33,6 +36,7 @@ nav .links {
     padding: 0 8px;
     gap: 1.2rem;
     margin-left: 5px;
+    font-weight: 700;
 }
 
 nav .links li a {
@@ -48,15 +52,25 @@ nav .links li a {
 
 .botoes {
     position: absolute;
-    right: 20px;
+    right: 1%;
     top: 30%;
 }
 
-.botoes button {
+.botoes button i{
+    padding-right: 5px;
+}
+
+button {
     border: none;
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     color: #6A15DF;
+    box-shadow:#000000 0px 0px 0px 0px;
+    letter-spacing: center;
+}
+
+#recarregar-moedas {
+    margin-right: 5px;
 }
 
 .botoes button:first-child {
@@ -83,7 +97,7 @@ section {
     text-transform: uppercase;
 }
 
-.descricao .botao-download {
+.descricao section{
     display: flex;
     justify-content: right;
     background-color: white;
@@ -94,10 +108,25 @@ section {
     margin-top: 2.5rem;
 }
 
-.descricao .botao-download a {
+.descricao a {
     color: #6A15DF;
+}
+
+#download{
+    display: flex;
+    justify-content: right;
+    margin-top: 10%;
+}
+
+.botao-download{
+    background-color: white;
 }
 
 section img {
     width: 1000px;
+}
+
+.division{
+    padding: 1% 6%;
+    margin: 5% 0 5% 0;
 }
