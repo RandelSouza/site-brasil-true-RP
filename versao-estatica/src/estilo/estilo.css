@@ -156,5 +156,14 @@ section img {
     padding: 0 0  0 10%;
 }
 #server-text{
-    width: 80%;
+    margin-left: 20%;
+
+}
+
+
+.card-servidor{
+    width: 300px;
+    padding: 5%;
+    border-radius: 5%;
+    background: linear-gradient(80deg, #30066cda, #8131f1);
 }
